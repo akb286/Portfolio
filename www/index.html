@@ -12,6 +12,9 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body id="top" class="scrollspy">
 
@@ -70,28 +73,14 @@
             <div  class="col s12">
                 <h2 class="center header text_h2"> My name is Alicia Baker, and I am a <span class="span_h2">Full Stack Developer</span> living in Salt Lake City, </span> <span class="span_h2">Utah.</h2>
             </div>
-
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                </div>
-            </div>
+              <div class="carousel">
+                <img class="carousel-item" src="img/rails.png" alt="rails" />
+                <img class="carousel-item" src="img/ruby.png" alt="rails" />
+                <img class="carousel-item" src="img/htmlogo.jpg" alt="rails" />
+                <img class="carousel-item" src="img/haml.png" alt="rails" />
+                <img class="carousel-item" src="img/sass.png" alt="rails" />
+                <img class="carousel-item" src="img/js.jpg" alt="rails" />
+              </div>
         </div>
     </div>
 </div>
@@ -99,7 +88,7 @@
 <!--Work-->
 <div class="section scrollspy" id="work">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
+        <h2 class="header text_b">Work</h2>
         <div class="row">
             <div class="col s12 m4 l4">
                 <div class="card">
@@ -107,15 +96,43 @@
                         <img class="activator" src="img/girlonahike.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"> GirlonaHike.com <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="http://www.girlonahike.com">Click to View</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Girl on a Hike <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="http://www.girlonahike.com">Project link</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">About<i class="mdi-navigation-close right"></i></span>
-                        <p>"Girl on a Hike" follows hiking enthusiast Alicia, and her hiking companion, Charlie, a Golden Lab, on their outdoor adventures. Rated as one of the Top Outdoor Blogs in 2016, 2017, & 2018 by @Blogger</p>
+                        <p>"Girl on a Hike" follows hiking enthusiast Alicia, and her hiking companion, Charlie, a Golden Lab, on their outdoor adventures. This is built with HTML/CSS on Blogger.</p>
                     </div>
                 </div>
             </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/knowledgebase.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Knowledge Base<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://knowledge-base.staging.acima.io/users/sign_in">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">About<i class="mdi-navigation-close right"></i></span>
+                        <p>Knowledge Base is a search system for Acima Employees for Support/IT questions. It was built with Ruby on Rails, and Bootstrap.</br></br>To view full project please contact me.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/acimaface.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Acima Credit<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://learning.acimacredit.com/merchant_login">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">About<i class="mdi-navigation-close right"></i></span>
+                        <p>Acima makes it possible for merchants to offer their customers a No Credit Needed finance option at the point of sale. Acima’s web-based merchant portal makes the entire process fast, easy and paperless. Customers are able to submit applications online, by mobile or any handheld device. This is built on Ruby & Rails.</br></br>To view full project please contact me.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,7 +157,7 @@
                               <h5 class="promo-caption">Acima Credit</h5>
                               <p class="light center"><span class="span_h2">May 2018 - Current</span><br/>
 
-                              </br/>Web Development Internship</p>
+                              </br/>Web Developer</p>
                           </div>
                       </div>
                       <div class="col s12 m4 l4">
@@ -178,20 +195,21 @@
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                            <input id="icon_prefix" name="name" type="text" class="validate white-text" required>
                             <label for="icon_prefix" class="white-text">Name</label>
                         </div>
                         <div class="input-field col s6">
                             <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" name="email" type="email" class="validate white-text">
+                            <input id="icon_email" name="email" type="email" class="validate white-text" required>
                             <label for="icon_email" class="white-text">Email</label>
                         </div>
                         <div class="input-field col s12">
                             <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text" required></textarea>
                             <label for="icon_prefix2" class="white-text">Message</label>
                         </div>
                         <div class="center-align">
+                          <!-- insert reCaptcha for security here -->
                             <button class="btn waves-effect waves-light grey darken-4" type="submit">Submit
                                 <i class="mdi-content-send right white-text"></i>
                             </button>
@@ -200,10 +218,10 @@
                 </form>
             </div>
             <div class="col l3 s12">
-                <img src="img/transparentSig.png" height="200" width="200">
+                <img src="img/signature1.png" height="200" width="200">
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Social</h5>
+                <h5 class="white-text">Let's Connect!</h5>
                 <ul>
                     <li>
                       <a class="white-text" href="https://www.linkedin.com/in/alicia-baker/">
@@ -240,6 +258,40 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+    </script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 
     </body>
 </html>
